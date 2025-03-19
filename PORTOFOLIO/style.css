@@ -88,14 +88,14 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color:  rgb(250, 244, 249);
 }
 
 .home-name {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
-    color: rgb(56, 69, 56);
+    color: rgb(73, 60, 73);
 }
 
 .home-right img {
@@ -169,7 +169,7 @@ section {
 
 /* About Section */
 #about {
-    background-color: rgb(175, 189, 179);
+    background-color: rgb(199, 194, 198);
     padding: 5rem 0;   
 }
 
@@ -274,18 +274,23 @@ h2 {
 }
 
 /* Warna untuk masing-masing skill dan sesuai persentase */
-.progress-bar.css {
-    background-color: hsl(308, 87%, 85%);
+.progress-bar.dancing {
+    background-color: hsl(308, 17%, 43%);
     width: 80%;
 }
 
-.progress-bar.js {
-    background-color: hsl(308, 87%, 85%);
+.progress-bar.sleeping {
+    background-color: hsl(308, 17%, 43%);
     width: 85%;
 }
 
-.progress-bar.html {
-    background-color: hsl(308, 87%, 85%);
+.progress-bar.cooking {
+    background-color: hsl(308, 17%, 43%);
+    width: 80%;
+}
+
+.progress-bar.stalking {
+    background-color: hsl(308, 17%, 43%);
     width: 99%;
 }
 
@@ -350,7 +355,7 @@ button {
 }
 
 button:hover {
-    background-color: #909491;
+    background-color: rgb(199, 194, 198);
 }
 
 
@@ -358,7 +363,7 @@ button:hover {
 footer {
     margin-bottom: 0;
     padding: 4rem 0;
-    background: rgb(130, 150, 136);
+    background: rgb(206, 187, 202);
     text-align: center; /* Meratakan teks di tengah */
 }
 
@@ -382,7 +387,7 @@ footer {
 
 footer p {
     font-size: 0.9rem;  
-    color: #333;         
+    color: #333333;         
     margin: 0;           
 }
 
