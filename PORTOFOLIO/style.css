@@ -276,12 +276,12 @@ h2 {
 /* Warna untuk masing-masing skill dan sesuai persentase */
 .progress-bar.dancing {
     background-color: hsl(308, 17%, 43%);
-    width: 80%;
+    width: 90%;
 }
 
 .progress-bar.sleeping {
     background-color: hsl(308, 17%, 43%);
-    width: 85%;
+    width: 87%;
 }
 
 .progress-bar.cooking {
@@ -292,6 +292,11 @@ h2 {
 .progress-bar.stalking {
     background-color: hsl(308, 17%, 43%);
     width: 99%;
+}
+
+.progress-bar.eating {
+    background-color: hsl(308, 17%, 43%);
+    width: 100%;
 }
 
 h3 {
